@@ -2,7 +2,7 @@
 
 Create a new project called __mlflow-sandbox__
 
-``oc new-project mlflow-sandbox``{{execute}}
+`oc new-project mlflow-sandbox`{{execute}}
 
 ```bash
 You can add applications to this project with the 'new-app' command. For example, try:
@@ -18,7 +18,7 @@ to build a new example application in Python. Or use kubectl to deploy a simple 
 
 **Add Helm Repository**
 
-``helm repo add larribas https://larribas.me/helm-charts``{{execute}}
+`helm repo add larribas https://larribas.me/helm-charts`{{execute}}
 
 ```bash
 "larribas" has been added to your repositories
@@ -26,7 +26,7 @@ to build a new example application in Python. Or use kubectl to deploy a simple 
 
 **Install MLflow Operator**
 
-``helm install mlflow-sandbox larribas/mlflow --version 1.0.1``{{execute}}
+`helm install mlflow-sandbox larribas/mlflow --version 1.0.1`{{execute}}
 
 ```bash
     NAME: mlflow-sandbox
@@ -43,7 +43,7 @@ to build a new example application in Python. Or use kubectl to deploy a simple 
 
 **Grant Security Context Constraints**
 
-``oc adm policy add-scc-to-user anyuid -z mlflow-sandbox``{{execute}}
+`oc adm policy add-scc-to-user anyuid -z mlflow-sandbox`{{execute}}
 
 ```bash
 securitycontextconstraints.security.openshift.io/anyuid added to: ["system:serviceaccount:mlflow-sandbox:mlflow-sanbox"]
@@ -53,7 +53,7 @@ __CAUTION__, `anyuid` provides all features of the restricted SCC this will be t
 
 **MLflow Service Account**
 
-``oc set serviceaccount deployment mlflow-sandbox mlflow-sandbox``{{execute}}
+`oc set serviceaccount deployment mlflow-sandbox mlflow-sandbox`{{execute}}
 
 ```bash
 deployment.apps/mlflow-sandbox serviceaccount updated
@@ -61,7 +61,7 @@ deployment.apps/mlflow-sandbox serviceaccount updated
 
 **Expose MLflow Route**
 
-``oc expose svc/mlflow-sandbox``{{execute}}
+`oc expose svc/mlflow-sandbox`{{execute}}
 
 ```bash
 route.route.openshift.io/mlflow-sandbox exposed
@@ -69,8 +69,8 @@ route.route.openshift.io/mlflow-sandbox exposed
 
 **Verify MLflow Route**
 
-``oc get route``{{execute}}
+`oc get route`{{execute}}
 
 To view MLflow interface go to the displayed URL.
 
-![mlflow](./assets/mlflow-install-1.png)
+![mlflow](assetslflow-install-1.png)

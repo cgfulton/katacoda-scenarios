@@ -2,7 +2,7 @@
 
 **Login Command**
 
-``oc login -u developer -p developer``{{execute}}
+`oc login -u developer -p developer`{{execute}}
 
 **Login Credentials**
 
