@@ -1,6 +1,4 @@
-This section will give a brief overview of the [MLflow](https://mlflow.org/).
-
-The learner is expected to have a basic understanding of the *Openshift*. 
+Learn how to install [MLflow](https://mlflow.org/) on [Openshift](https://www.openshift.com/).
 
 MLflow is an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry.
 - [MLflow Tracking](https://mlflow.org/docs/latest/tracking.html#tracking), track experiments to record and compare parameters and results.
@@ -10,8 +8,8 @@ MLflow is an open source platform to manage the ML lifecycle, including experime
 
 ---
 
-Once, you understand MLflow basics, components and installation please take time to explore various features of MLflow on Openshift.
+Once, you understand MLflow installation process please take time to explore various MLflow features on Openshift.
 
-Now, let's start!
+Now, let's Get Started!
 
 ![MLflow](assets/MLflow-logo-final-white-TM.png) 

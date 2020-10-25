@@ -4,19 +4,20 @@
   "difficulty": "beginner",
   "time": "10-15 minutes",
   "icon": "openshift",
+  "pathwayTitle": "OpenShift",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Topic 1 - Logging in Via the Web Console",
+        "text": "01-logging-in-via-the-web-console.md"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Topic 2 - Logging in Via the Command Line",
+        "text": "02-logging-in-via-the-command-line.md"
       },
       {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Topic 3 - Installing Helm",
+        "text": "03-installing-helm.md"
       },
       {
         "title": "Step 4",
