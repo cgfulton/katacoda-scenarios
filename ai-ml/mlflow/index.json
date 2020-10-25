@@ -8,16 +8,12 @@
   "details": {
     "steps": [
       {
-        "title": "Topic 1 - Logging in Via the Web Console",
-        "text": "01-logging-in-via-the-web-console.md"
+        "title": "Topic 1 - Logging in to Openshift cluster",
+        "text": "01-logging-in.md"
       },
       {
-        "title": "Topic 2 - Logging in Via the Command Line",
-        "text": "02-logging-in-via-the-command-line.md"
-      },
-      {
-        "title": "Topic 3 - Installing Helm",
-        "text": "03-installing-helm.md"
+        "title": "Topic 2- Installing MLflow",
+        "text": "03-installing-mlflow.md"
       },
       {
         "title": "Step 4",
