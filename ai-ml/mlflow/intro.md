@@ -14,4 +14,4 @@ Once, you understand MLflow basics, components and installation please take time
 
 Now, let's start!
 
-![MLflow](assets/MLflow-header-pic@2x.png) 
+![MLflow](assets/MLflow-logo-final-white-TM.png) 
