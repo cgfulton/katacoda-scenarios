@@ -1,3 +1,5 @@
+![mlflow-header](assets/mlflow-header.png)
+
 ## Creating your own Project
 
 Create a new project called __mlflow-sandbox__
@@ -73,4 +75,4 @@ route.route.openshift.io/mlflow-sandbox exposed
 
 To view MLflow interface go to the displayed URL.
 
-![mlflow](assetslflow-install-1.png)
+![mlflow](assets/mlflow-install.png)

@@ -12,4 +12,4 @@ Once, you understand MLflow installation process please take time to explore var
 
 Now, let's Get Started!
 
-![MLflow](assets/MLflow-logo-final-white-TM.png) 
+![MLflow](assets/mlflow-logo.png) 
