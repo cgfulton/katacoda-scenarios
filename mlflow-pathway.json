@@ -1,0 +1,12 @@
+{
+  "title": "mlflow",
+  "description": "Explore MLflow.",
+  "icon": "openshift",
+  "courses": [
+      {
+        "course_id": "mlflow-install"
+        "title": "MLflow Install",
+        "description": "An opinionated approach to installing MLFlow"
+      }
+  ]
+}
