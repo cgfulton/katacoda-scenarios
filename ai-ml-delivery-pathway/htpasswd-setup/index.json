@@ -1,0 +1,39 @@
+{
+  "title": "Consulting: Install MLflow",
+  "description": "In this scenario, we will explore an opinionated approach to installing MLflow.",
+  "difficulty": "beginner",
+  "time": "10-15 minutes",
+  "icon": "openshift",
+  "pathwayTitle": "OpenShift",
+  "details": {
+    "steps": [
+      {
+        "title": "Access Cluster",
+        "text": "01-access-cluster.md"
+      },
+      {
+        "title": "Create User",
+        "text": "02-create-user.md"
+      }
+    ],
+    "intro": {
+      "code": "env-init.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "icon": "fa-openshift",
+    "showdashboard": true,
+    "dashboards": [   {
+      "name": "OpenShift Console",
+      "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"
+    }],
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid":  "kubernetes-cluster-running:1.18"
+  }
+}

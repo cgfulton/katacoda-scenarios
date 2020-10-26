@@ -8,20 +8,12 @@
   "details": {
     "steps": [
       {
-        "title": "Topic 1 - Logging in to Openshift cluster",
-        "text": "01-logging-in.md"
+        "title": "Access Cluster",
+        "text": "01-access-cluster.md"
       },
       {
-        "title": "Topic 2- Installing MLflow",
-        "text": "02-installing-mlflow.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
+        "title": "Install MLFlow",
+        "text": "02-install-mlflow.md"
       }
     ],
     "intro": {
