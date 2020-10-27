@@ -2,7 +2,7 @@
   "title": "Access Openshift Via HTPasswd",
   "description": "Generate HTPasswd user and login to Openshift.",
   "difficulty": "beginner",
-  "time": "10-15 minutes",
+  "time": "5-10 minutes",
   "icon": "openshift",
   "pathwayTitle": "OpenShift",
   "details": {

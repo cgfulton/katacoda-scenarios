@@ -1,8 +1,8 @@
 {
-  "title": "Consulting: Install MLflow",
-  "description": "In this scenario, we will explore an opinionated approach to installing MLflow.",
+  "title": "Install MLflow",
+  "description": "In this scenario, we will install MLflow.",
   "difficulty": "beginner",
-  "time": "10-15 minutes",
+  "time": "10 minutes",
   "icon": "openshift",
   "pathwayTitle": "OpenShift",
   "details": {
