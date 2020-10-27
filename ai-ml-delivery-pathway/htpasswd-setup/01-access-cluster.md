@@ -7,6 +7,7 @@
 **Login Credentials**
 
 * **Username:** ``developer``
+
 * **Password:** ``developer``
 
 Use the same credentials to log into the web console. (see OpenShift Console tab)

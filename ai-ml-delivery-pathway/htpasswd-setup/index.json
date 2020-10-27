@@ -14,6 +14,10 @@
       {
         "title": "Create HTPasswd User",
         "text": "02-create-user.md"
+      },
+      {
+        "title": "Cluster Admin Binding",
+        "text": "03-cluster-admin-binding.md"
       }
     ],
     "intro": {
