@@ -1,6 +1,6 @@
 ## Create User
 
-Create htpasswd file
+Generated __htpasswd__ file
 
 `htpasswd -c -B -b users.htpasswd developer 'developer'`{{execute}}
 
@@ -23,10 +23,24 @@ From __Cluster Settings__
 
 ![cluster-settings](assets/cluster-settings-page.png)
 
-**Add Identity Provider**
+**Select Identity Provider**
 
 * Scroll to the bottom of the oAuth page
 * Click __Add__ under __Identity Providers__
-* Selecct HTPasswd
+* Select HTPasswd
 
 ![oauth-page](assets/oauth-page-cluster-settings.png)
+
+**Add HTPassword Identity Provider**
+
+On the __Add Identity Provider__ page 
+* Click Browse
+* Select the generated __htpasswd__ file
+* Click Add
+
+**Login With HTPasswd**
+* Logout out of the Openshift Console
+* From the Openshift login menu select __htpasswd__ to login
+
+![ocp-login-menu](assets/ocp-login-menu.png)
+
